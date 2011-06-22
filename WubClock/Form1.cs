@@ -119,6 +119,12 @@ namespace WubClock {
 		private void button3_Click(object sender, EventArgs e) {
 			timer1.Start();
 			button3.Enabled = false;
+
+			// save set alarm time for next time
+			Properties.Settings.Default.Hour = numericUpDown1.Value;
+			Properties.Settings.Default.Minute = numericUpDown2.Value;
+			Properties.Settings.Default.AMPM = comboBox1.SelectedIndex;
+			Properties.Settings.Default.Save();
 		}
 	}
 }
