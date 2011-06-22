@@ -1,0 +1,10 @@
+C:\Users\Lindsey\Documents\code\WubClock\WubClock\WubClock\bin\Release\WubClock.exe.config
+C:\Users\Lindsey\Documents\code\WubClock\WubClock\WubClock\bin\Release\WubClock.exe
+C:\Users\Lindsey\Documents\code\WubClock\WubClock\WubClock\bin\Release\WubClock.pdb
+C:\Users\Lindsey\Documents\code\WubClock\WubClock\WubClock\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Lindsey\Documents\code\WubClock\WubClock\WubClock\obj\x86\Release\WubClock.Form1.resources
+C:\Users\Lindsey\Documents\code\WubClock\WubClock\WubClock\obj\x86\Release\WubClock.Properties.Resources.resources
+C:\Users\Lindsey\Documents\code\WubClock\WubClock\WubClock\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Lindsey\Documents\code\WubClock\WubClock\WubClock\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Lindsey\Documents\code\WubClock\WubClock\WubClock\obj\x86\Release\WubClock.exe
+C:\Users\Lindsey\Documents\code\WubClock\WubClock\WubClock\obj\x86\Release\WubClock.pdb
