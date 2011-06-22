@@ -98,7 +98,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <None Include="Resources\wubclock_icon.ico" />
+    <None Include="Resources\WubClock_Icon.ico" />
     <Content Include="wubclock_icon.ico" />
   </ItemGroup>
   <ItemGroup>
