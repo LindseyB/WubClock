@@ -114,12 +114,18 @@ namespace WubClock {
 		private void button2_Click(object sender, EventArgs e) {
 			timer1.Stop();
 			button3.Enabled = true;
+			numericUpDown1.Enabled = true;
+			numericUpDown2.Enabled = true;
+			comboBox1.Enabled = true;
 		}
 
 		// Set button
 		private void button3_Click(object sender, EventArgs e) {
 			timer1.Start();
 			button3.Enabled = false;
+			numericUpDown1.Enabled = false;
+			numericUpDown2.Enabled = false;
+			comboBox1.Enabled = false;
 
 			// save set alarm time for next time
 			Properties.Settings.Default.Hour = numericUpDown1.Value;
