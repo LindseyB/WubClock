@@ -59,5 +59,12 @@ namespace WubClock.Properties {
                 resourceCulture = value;
             }
         }
+        
+        internal static System.Drawing.Icon wubclock_icon {
+            get {
+                object obj = ResourceManager.GetObject("wubclock_icon", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
     }
 }

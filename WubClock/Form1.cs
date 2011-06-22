@@ -36,6 +36,7 @@ namespace WubClock {
 
 			numericUpDown1_ValueChanged(null, null);
 			numericUpDown2_ValueChanged(null, null);
+			Icon = Properties.Resources.wubclock_icon;
 		}
 
 		private void Form1_FormClosing(object sender, System.ComponentModel.CancelEventArgs e) {
