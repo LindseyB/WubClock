@@ -86,6 +86,7 @@ namespace WubClock {
 
 			if (curTime.Hour == hour && curTime.Minute == minute) {
 				active = true;
+				button1.Enabled = true;
 				process = System.Diagnostics.Process.Start("listen.pls");
 
 
@@ -98,9 +99,7 @@ namespace WubClock {
 		// Snooze button
 		private void button1_Click(object sender, EventArgs e) {
 			// snooze for 9 minutes, why 9? Because science!
-			if (active) {
-				minute += 9;
-			}
+			minute += 9;
 
 			// let's go close the process
 			if (process != null) {
@@ -117,6 +116,7 @@ namespace WubClock {
 			numericUpDown1.Enabled = true;
 			numericUpDown2.Enabled = true;
 			comboBox1.Enabled = true;
+			button2.Enabled = false;
 		}
 
 		// Set button
@@ -126,6 +126,7 @@ namespace WubClock {
 			numericUpDown1.Enabled = false;
 			numericUpDown2.Enabled = false;
 			comboBox1.Enabled = false;
+			button2.Enabled = true;
 
 			// save set alarm time for next time
 			Properties.Settings.Default.Hour = numericUpDown1.Value;
