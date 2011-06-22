@@ -1,0 +1,4 @@
+WubClock
+
+WubClock is a ~simple~ C# application that will play the listen.pls file that
+it is in the current directory with the program when the alarm "beeps". By default this PLS file is dubstep.fm (thus the name).  
