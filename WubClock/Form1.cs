@@ -117,6 +117,13 @@ namespace WubClock {
 		// Disable button 
 		private void button2_Click(object sender, EventArgs e) {
 			timer1.Stop();
+
+			// let's go close the process
+			if (process != null) {
+				process.CloseMainWindow();
+				process.WaitForExit();
+			}
+
 			button3.Enabled = true;
 			numericUpDown1.Enabled = true;
 			numericUpDown2.Enabled = true;
